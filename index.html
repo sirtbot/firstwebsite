@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+	<style> 
+#content {
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  background: white;
+}
+* {
+  box-sizing: border-box;
+  
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+   background-color: #ededed;
+  color: black;
+  
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+   background-color: #ededed;
+  color: black;
+  
+}
+
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+   background-color: #ededed;
+  color: black;
+  
+}
+input[type=date], select, numberarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+   background-color: #ededed;
+  color: black;
+
+  
+  
+}
+
+label {
+  padding: 16px 12	px 12px 0;
+  display: inline-block;
+  
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+      top: 50%;
+    left: 50%;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* The container */
+
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+	<form>
+		<fieldset>
+		
+			<legend><h2>Inscrição para para o clube Tirsense<img src="https://m-tv.imgix.net/2412a07d93b4db24d6d2942cbc327d954c7e3ff84244971b86ed6840edc8e72d.png" alt="alternatetext" style="width:50px;height:50px;margin: -20px 20px;"></h2></legend>
+
+			<label>Nome</label>
+			<input type="text" placeholder="Tiago Pereira">
+
+			<br><br>
+			<label>Data de nascimento</label>
+			<input type="date" placeholder="">
+
+			<br><br>
+			<label>Nª identificação fiscal</label>
+			<input type="number" placeholder="207947929">
+	
+           	<br><br>
+			<label>Nª Cartão Cidadão</label>
+			<input type="text" placeholder="11041124 2 ZV0">
+           	<br><br>
+			<label>Morada</label>
+			<input type="text" placeholder="Rua do zeze">
+           	<br><br>
+			<label>Email</label>
+			<input type="email" placeholder="zé@gmail.com">
+
+
+			<br><br>
+			<label>Modalidades</label><br>
+			<input type="checkbox">Futebol<br>
+			<input type="checkbox">Basquetebol<br>
+			<input type="checkbox">Volei<br>
+			<input type="checkbox">Andebol<br>
+			
+			<br><br>
+			<label>Escalão</label><br>
+			<input type="checkbox">Infantil<br>
+			<input type="checkbox">Sub 8<br>
+			<input type="checkbox">Sub 10<br>
+			<input type="checkbox">Sub 14<br>
+			<input type="checkbox">Sub 16<br>
+			<input type="checkbox">Sub 18<br>
+			<br><br>
+			<label>Nome encarregado de edu</label><br>
+			<input type="text" placeholder="Não sei o que escrever">
+
+			<br><br>
+			<input type="submit" value="Submeter">
+
+		</fieldset>
+	</form>
+</body>
+</html>
